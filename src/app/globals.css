@@ -18,9 +18,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: rgb(3, 17, 32)
+  background-color: rgb(6, 23, 30)
 }
-
+.color1{
+  color:white;
+  
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
