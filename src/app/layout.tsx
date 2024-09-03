@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter,Roboto_Mono } from "next/font/google";
 import "./globals.css";
-<<<<<<< HEAD
 import Footer from "@/components/Footer";
 
-=======
->>>>>>> 71b08d02315c7196335235bd9c5905deed9753e3
+
 
 const inter = Inter({ subsets: ["latin"] });
+const robotoMono = Roboto_Mono({ subsets: ["latin"],
+  variable:"--robotoMono",
+  weight:["100","200","300","400","500","600","700"]
+ });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={robotoMono.variable}>{children}</body>
     </html>
   );
 }

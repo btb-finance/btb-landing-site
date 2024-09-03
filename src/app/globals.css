@@ -18,23 +18,17 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-<<<<<<< HEAD
-  background-color: rgb(6, 23, 30)
+
+  background-color: rgb(6, 23, 30);
+  
 }
 .color1{
   color:white;
   
 }
-=======
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
 
->>>>>>> 71b08d02315c7196335235bd9c5905deed9753e3
+ 
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

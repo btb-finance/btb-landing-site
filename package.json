@@ -1,9 +1,7 @@
 {
-<<<<<<< HEAD
-  "name": "next-app-task2",
-=======
-  "name": "btb-finance-page",
->>>>>>> 71b08d02315c7196335235bd9c5905deed9753e3
+
+ 
+
   "version": "0.1.0",
   "private": true,
   "scripts": {
