@@ -27,10 +27,23 @@ body {
   
 }
 
- 
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+.bg-color{
+  background-color: rgb(6,23,30);
+  
+}
+
+.color{
+  color: rgb(94,125,140);
+  border-color: rgb(94,125,140);
+}
+.capatalize{
+  text-transform: capitalize;
+}
+.uppercase-text {
+  text-transform: uppercase;
 }

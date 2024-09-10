@@ -1,25 +1,24 @@
 
-import Footer from "@/components/Footer";
+import Footer from "@/components/layout/Footer";
 import Image from "next/image";
-import "./globals.css"
 import Link from "next/link";
-import logo1 from "../../public/fintech-collective-logo.png"
-import logo2 from "../../public/encode-club-logo.png"
-import logo3 from "../../public/nexo.png"
-import logo4 from "../../public/daedalus.png"
-import logo5 from "../../public/arbitrum-foundation (1).png"
-import logo6 from "../../public/optimism-white.png"
-import logo7 from "../../public/polygon-logo.png"
-import logo8 from "../../public/uniswap-foundation.png"
-import logo9 from "../../public/code4arena.png"
-import logo10 from "../../public/peckshield.png"
-import logo11 from "../../public/hydn.png"
-import tableimg1 from "../../public/uniswap.svg"
-import tableimg2 from "../../public/green-ethereum.svg"
-import tableimg3 from "../../public/green-base.svg"
-import tableimg4 from "../../public/green-polygon.svg"
-import tableimg5 from "../../public/green-arbitrum.svg"
-import tableimg6 from "../../public/green-optimism.svg"
+import logo1 from "../public/fintech-collective-logo.png"
+import logo2 from "../public/encode-club-logo.png"
+import logo3 from "../public/nexo.png"
+import logo4 from "../public/daedalus.png"
+import logo5 from "../public/arbitrum-foundation (1).png"
+import logo6 from "../public/optimism-white.png"
+import logo7 from "../public/polygon-logo.png"
+import logo8 from "../public/uniswap-foundation.png"
+import logo9 from "../public/code4arena.png"
+import logo10 from "../public/peckshield.png"
+import logo11 from "../public/hydn.png"
+import tableimg1 from "../public/uniswap.svg"
+import tableimg2 from "../public/green-ethereum.svg"
+import tableimg3 from "../public/green-base.svg"
+import tableimg4 from "../public/green-polygon.svg"
+import tableimg5 from "../public/green-arbitrum.svg"
+import tableimg6 from "../public/green-optimism.svg"
 export default function Home() {
   const articles = [
     {
