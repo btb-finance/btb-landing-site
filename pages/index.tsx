@@ -30,7 +30,7 @@ export default function Home() {
         </div>
 
         <main>
-          <div className="flex flex-col flex-1 gap-8 mx-auto mt-8 mb-8 w-full max-w-full sm:min-w-full  md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4 md:px-8 lg:px-16 overflow-y-auto">
+          <div className="font-roboto flex flex-col flex-1 gap-8 mx-auto mt-8 mb-8 w-full max-w-full sm:min-w-full  md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4 md:px-8 lg:px-16 overflow-y-auto">
             <Section8 />
             <Section9 />
             <Section10 />
