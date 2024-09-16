@@ -20,11 +20,9 @@ body {
   color: rgb(var(--foreground-rgb));
 
   background-color: rgb(6, 23, 30);
-  
 }
-.color1{
-  color:white;
-  
+.color1 {
+  color: white;
 }
 
 @layer utilities {
@@ -32,16 +30,31 @@ body {
     text-wrap: balance;
   }
 }
-.bg-color{
-  background-color: rgb(6,23,30);
-  
+
+::-webkit-scrollbar {
+  width: 0.7rem;
+}
+::-webkit-scrollbar-track {
+  background: #06171e;
+}
+::-webkit-scrollbar-thumb {
+  background: #06171e;
+  border-radius: 20px;
+  border: 1px solid #9c0221;
+  transition: border-color 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+  border: 1px solid #ff073a;
 }
 
-.color{
-  color: rgb(94,125,140);
-  border-color: rgb(94,125,140);
+.bg-color {
+  background-color: rgb(6, 23, 30);
 }
-.capatalize{
+.color {
+  color: rgb(94, 125, 140);
+  border-color: rgb(94, 125, 140);
+}
+.capatalize {
   text-transform: capitalize;
 }
 .uppercase-text {

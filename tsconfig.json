@@ -24,6 +24,7 @@
       "@/services/*" : ["./services/*"],
       "@/types/*" : ["./types/*"],
       "@/utils/*": ["./utils/*"],
+      "@/assets/*": ["./assets/*"],
       "@/state-management/*": ["./state-management/*"],
     }
   },

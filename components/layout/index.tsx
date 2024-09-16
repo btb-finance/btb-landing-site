@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import { Roboto_Mono } from "next/font/google";
+import Navbar from "./Navbar";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -18,6 +19,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <Head>
           <title>BTB Finance</title>
         </Head>
+        <Navbar />
         <main className={robotoMono.variable}>{children}</main>
       </div>
     </>
