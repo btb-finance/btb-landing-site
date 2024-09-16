@@ -6,4 +6,5 @@ const roboto_init = Roboto_Mono({
     variable: '--font-roboto'
     });
 
-   export const roboto = roboto_init.variable
+ const roboto = roboto_init.variable
+ export default roboto

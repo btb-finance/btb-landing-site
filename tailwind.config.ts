@@ -13,6 +13,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        roboto: ['var(--font-roboto)']
+      },
+      colors: {
+        customRed: '#ed1e28', 
+        customDark: '#030b0f',
+        tealblue: '#06171E',
+        neonRed: '#FF073A',
+      },
     },
   },
   plugins: [],
