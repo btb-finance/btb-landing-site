@@ -7,11 +7,6 @@ interface LayoutProps {
   children: React.ReactNode;
 }
 
-// const robotoMono = Roboto_Mono({ subsets: ["latin"],
-//   variable:"--robotoMono",
-//   weight:["100","200","300","400","500","600","700"]
-//  });
-
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>

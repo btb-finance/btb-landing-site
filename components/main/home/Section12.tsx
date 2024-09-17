@@ -1,4 +1,4 @@
-import articles from "@/utils/homejs/articles";
+import articles from "@/utils/home/articles";
 import Link from "next/link";
 
 export default function Section12(){

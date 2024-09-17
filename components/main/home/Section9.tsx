@@ -1,4 +1,4 @@
-import table2 from "@/utils/homejs/table2"
+import table2 from "@/utils/home/table2"
 import Image from "next/image"
 
 

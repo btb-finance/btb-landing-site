@@ -1,4 +1,4 @@
-import table from "@/utils/homejs/table";
+import table from "@/utils/home/table";
 import Image from "next/image";
 
 export default function Section10(){

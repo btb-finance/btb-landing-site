@@ -1,6 +1,6 @@
-import investors from "@/utils/homejs/investors";
-import partners from "@/utils/homejs/partners";
-import security from "@/utils/homejs/security"
+import investors from "@/utils/home/investors";
+import partners from "@/utils/home/partners";
+import security from "@/utils/home/security"
 import Link from "next/link";
 import Image from "next/image";
 

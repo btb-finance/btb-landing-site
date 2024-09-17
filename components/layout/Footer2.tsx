@@ -1,4 +1,4 @@
-import footerLink from "@/utils/homejs/footerLink"
+import footerLink from "@/utils/home/footerLink"
 import Image from "next/image"
 import btblogo from "@/assets/images/Logo/btblogo.png"
 export default function Footer2(){

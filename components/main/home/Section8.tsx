@@ -1,4 +1,4 @@
-import data from "@/utils/homejs/data"
+import data from "@/utils/home/data"
 
 export default function Section8(){
     return(
