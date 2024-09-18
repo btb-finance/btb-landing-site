@@ -12,13 +12,17 @@ import Section9 from "@/components/main/home/Section9";
 import Section10 from "@/components/main/home/Section10";
 import Section11 from "@/components/main/home/Section11";
 import Section12 from "@/components/main/home/Section12";
+import styles from '@/components/main/home/home.module.css';
+
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col min-h-screen items-center ">
+     
+
+        <main>
+        <div className="flex flex-col min-h-screen items-center ">
         <div
-          className="font-roboto flex flex-col min-h-full bg-[#06171E] md:pt-8 px-4 sm:px-6 pt-6 md:px-28   justify-start"
-          style={{ paddingTop: "130px" }}
+          className={`${styles.hero} font-roboto flex flex-col min-h-full bg-[#06171E] md:pt-8 pt-6 px-4 md:px-8 lg:px-16 justify-start`}
         >
           <Hero />
           <Section2 />
@@ -29,7 +33,6 @@ export default function Home() {
           <Section7 />
         </div>
 
-        <main>
           <div className="font-roboto flex flex-col flex-1 gap-8 mx-auto mt-8 mb-8 w-full max-w-full sm:min-w-full  md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl px-4 md:px-8 lg:px-16 overflow-y-auto">
             <Section8 />
             <Section9 />
@@ -37,12 +40,16 @@ export default function Home() {
             <Section11 />
             <Section12 />
           </div>
+
+          </div>
         </main>
+
         <Footer2 />
         <div>
           <Footer />
         </div>
-      </div>
+   
+       
     </>
   );
 }
