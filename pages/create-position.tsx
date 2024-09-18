@@ -18,22 +18,22 @@ export const CreatePosition = () => {
   const [showDropdownAsset, setShowDropdownAsset] = useState(false);
   const [showDropdownAsset2, setShowDropdownAsset2] = useState(false);
 
-  const handleSelectNetwork = (value) => {
+  const handleSelectNetwork = (value: any) => {
     setSelectedNetwork(value);
     setShowDropdownNetwork(false);
   };
 
-  const handleSelectProtocol = (value) => {
+  const handleSelectProtocol = (value: any) => {
     setSelectedProtocol(value);
     setShowDropdownProtocol(false);
   };
 
-  const handleSelectAsset = (value) => {
+  const handleSelectAsset = (value: any) => {
     setSelectedAsset(value);
     setShowDropdownAsset(false);
   };
 
-  const handleSelectAsset2 = (value) => {
+  const handleSelectAsset2 = (value: any) => {
     setSelectedAsset2(value);
     setShowDropdownAsset2(false);
   };
