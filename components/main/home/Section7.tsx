@@ -4,7 +4,7 @@ import compound from "@/assets/images/home/auto-compound-img-1.svg";
 
 const Section7 = () => {
   return (
-    <div className="max-w-full  h-auto md:h-screen flex flex-col md:flex-row mx-auto  md:gap-x-28 -mt-40 md:-mt-72 sm:-mb-28 ">
+    <div className="max-w-full   flex flex-col md:flex-row mx-auto  md:gap-x-28 -mt-56 md:-mt-72 -mb-24 sm:-mb-24 md:-mb-10 ">
       <div className="basis-full md:basis-[55%] order-1">
         <div className="space-y-8">
           <div className="space-y-5">
@@ -56,7 +56,11 @@ const Section7 = () => {
       </div>
       {/* Image Section */}
       <div className=" md:basis-[45%] order-2  -mt-16 sm:-mt-16 md:mt-5">
-        <Image src={compound} height={550} width={550} alt="image" />
+        <Image
+         src={compound} 
+         height={550} 
+         width={550} 
+         alt="image" />
       </div>
     </div>
   );

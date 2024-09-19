@@ -23,7 +23,7 @@ import quickswap from "@/assets/images/home/quickswap-red.svg"
 
 const Section2 = () => {
   return (
-    <div className="flex flex-col mt-64 md:px-0 mb-3 font-roboto">
+    <div className="flex flex-col mt-64  mb-3 font-roboto">
     <div className="flex justify-start">
       <div className="">
         <h2 className="text-black border border-customRed bg-customRed p-0.5 rounded-md font-bold">
