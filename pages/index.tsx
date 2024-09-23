@@ -38,9 +38,9 @@ export default function Home() {
             <Section12 />
           </div>
         </main>
-        <Footer2 />
+        {/* <Footer2 /> */}
         <div>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </div>
     </>

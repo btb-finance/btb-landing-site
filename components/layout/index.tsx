@@ -2,6 +2,8 @@ import Head from "next/head";
 import React from "react";
 import roboto from "@/assets/fonts/font";
 import Navbar from "./Navbar";
+import Footer2 from "./Footer2";
+import Footer from "./Footer";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -20,7 +22,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <title>BTB Finance</title>
         </Head>
         <Navbar />
-        <main className={`${roboto}`}>{children}</main>
+        <main className={`${roboto}`}>{children}<Footer2/><Footer/></main>
       </div>
     </>
   );

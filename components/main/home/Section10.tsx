@@ -13,7 +13,8 @@ export default function Section10(){
                   Uncover liquidity incentive programs and explore opportunities to earn rewards.
                 </p>
               </div>
-              <div className="flex flex-col min-w-[320px] overflow-x-scroll overflow-y-hidden md:overflow-visible
+              <div className="w-full">
+               <div className="flex flex-col min-w-[320px] overflow-x-scroll overflow-y-hidden md:overflow-visible
                 md:min-w-[480px] relative z-[1] px-3 md:px-0">
                 <div className="flex flex-col w-full md:w-auto relative gap-2 -mt-2 font-Roboto_Mono">
                   <div className="flex items-start justify-between text-gray-300 md:sticky md:top-[52px] py-2 md:z-[11] text-xs
@@ -81,7 +82,9 @@ export default function Section10(){
                     </div>
                   ))}
                 </div>
+              </div>  
               </div>
+             
 
 
 
